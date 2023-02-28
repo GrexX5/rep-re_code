@@ -1,0 +1,256 @@
+
+body{
+    font-family: 'Times New Roman', Times,serif;  
+    width:90%;
+    margin: auto;
+}
+
+.row1{
+    padding-top: 40px;
+    background-image: url(images/70.jpg);
+    background-size:cover;
+    width:100%;
+    height:800px;
+    text-align:right;
+    
+}
+
+
+.col-md-12{
+    font-family: 'Times New Roman', Times,serif;
+    font-size:50px;
+    line-height:55px;
+    padding-right: 80px;
+}
+
+
+.button { 
+    background-color: black; /* Black */
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 15px 60px;
+    cursor: pointer;
+
+}
+.op{
+    background-color:black;color: white;
+    font-size:120px;
+    width:90%;
+    line-height:130px;
+    font-family: 'Times New Roman', Times,serif;
+    text-align: center;
+    height: 500px;
+    padding-top: 100px;
+}
+
+.button3 {
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 15px 0px;
+    cursor: pointer;
+
+} /* Red */ 
+
+
+.button2 {
+    background-color: black; /* Blue */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 15px 0px;
+    cursor: pointer;
+
+}
+
+.button0 {
+    background-color: black; /* Blue */
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 15px 0px;
+    cursor: pointer;
+    margin-top: -25px;
+
+}
+.p{
+    font-family: 'Times New Roman', Times,serif;  
+}
+
+svg circle{
+    fill:none;
+    stroke:red;
+    stroke-width: 10px;
+    transform: translate(5px,5px);
+    stroke-dasharray:440;
+    stroke-dashoffset:220;
+}
+
+.row2{
+    flex-direction: row;
+}
+
+.colonne {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: -145px;
+    margin-left:150px;
+}
+
+.colonne1{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Ent{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    flex-basis: 50%;
+    width:90%;
+    margin: auto;
+}
+
+.fct{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    flex-basis: 50%;
+    width:90%;
+    margin: 0 auto;
+
+}
+.text-2{
+    font-size: 20px;
+    padding-top: 20px;
+    padding-right: -150px;
+    margin-left: 80px;
+
+}
+
+.text-1{
+    font-size: 20px;
+    padding-top: 30px;
+    padding-right: -150px;
+    margin-left: 45px;
+
+}
+
+.shoes{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    justify-content: space-around;
+
+}
+
+.cendre{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin-left:130px;
+}
+.bg-cendre{
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 90px;
+    background-color:aliceblue;
+    width:100%; 
+    padding-bottom: 100px;
+    
+}
+
+.text-3{
+    font-size:25px;
+    margin-left: 10px;
+}
+
+.picture1{
+    display: flex;
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+.picture2{
+    display: flex;
+    width: 100%;
+}
+
+.final{
+    display: flex;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width: 1200px) and (min-width: 400px) {
+    .row1{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .text1{
+        width: 90%;
+       }
+         
+       .text2{
+        width: 90%;
+       }
+    
+}
+
+
+@media screen and (max-width: 800px) and (min-width: 200px) {
+    .op {
+        font-size: 90px;
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 200px) {
+    .fct{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 200px) {
+    .text-3{
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
